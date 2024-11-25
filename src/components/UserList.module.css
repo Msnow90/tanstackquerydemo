@@ -1,0 +1,41 @@
+.userListContainer {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.userGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.userHeading {
+    color: black;
+    font-size: 18px;
+}
+
+.userText {
+    color: black;
+    font-size: 12px;
+}
+
+.userNavLink {
+    cursor: pointer;
+}
+
+.userCard {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
